@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 // Initialize OpenAI
 const openai = new OpenAI({
   baseURL: "https://openrouter.ai/api/v1",
-  apiKey: "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",
+  apiKey: "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",
   defaultHeaders: {
     "HTTP-Referer": "",
     "X-Title": "",
