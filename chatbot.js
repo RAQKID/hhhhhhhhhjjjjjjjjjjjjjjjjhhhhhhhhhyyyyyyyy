@@ -186,6 +186,11 @@ app.get("/glm", async (req, res) => {
   }
 });
 
+// Root route
+app.get("/", (req, res) => {
+  res.send("The server is running");
+});
+
 // Start server
 app.listen(PORT, () => {
   console.log(`🚀 Server running at http://localhost:${PORT}`);
