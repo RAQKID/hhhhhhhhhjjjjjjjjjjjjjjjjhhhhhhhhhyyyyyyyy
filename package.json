@@ -1,0 +1,16 @@
+{
+  "name": "lavalink",
+  "version": "1.0.0",
+  "description": "",
+  "main": "chatbot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "openai": "^5.20.2"
+  }
+}
